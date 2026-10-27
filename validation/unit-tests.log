@@ -1,0 +1,23 @@
+test_atomic_invalid_model_result_rolls_back_everything (test_core.CoreTests.test_atomic_invalid_model_result_rolls_back_everything) ... ok
+test_block_same_patient_allow_other_and_reset_confirmation (test_core.CoreTests.test_block_same_patient_allow_other_and_reset_confirmation) ... ok
+test_cross_patient_and_future_evidence_rejected (test_core.CoreTests.test_cross_patient_and_future_evidence_rejected) ... ok
+test_dedup_same_title_and_idempotent_processing (test_core.CoreTests.test_dedup_same_title_and_idempotent_processing) ... ok
+test_different_owners_and_patients_not_merged (test_core.CoreTests.test_different_owners_and_patients_not_merged) ... ok
+test_edit_cancel_and_reopen (test_core.CoreTests.test_edit_cancel_and_reopen) ... ok
+test_partial_and_contradiction_do_not_complete (test_core.CoreTests.test_partial_and_contradiction_do_not_complete) ... ok
+test_prompt_isolation (test_core.CoreTests.test_prompt_isolation) ... ok
+test_rejected_old_evidence_cannot_resurface (test_core.CoreTests.test_rejected_old_evidence_cannot_resurface) ... ok
+test_restart_persistence_and_interrupted_job (test_core.CoreTests.test_restart_persistence_and_interrupted_job) ... ok
+test_retry_patient_analysis_does_not_generate_reply_again (test_core.CoreTests.test_retry_patient_analysis_does_not_generate_reply_again) ... ok
+test_retry_reply_stage_does_not_repeat_user_or_analysis (test_core.CoreTests.test_retry_reply_stage_does_not_repeat_user_or_analysis) ... ok
+test_spec_sequence_human_only_completion (test_core.CoreTests.test_spec_sequence_human_only_completion) ... ok
+test_invalid_json_and_truncated_response (test_model.ModelTests.test_invalid_json_and_truncated_response) ... ok
+test_local_request_contract (test_model.ModelTests.test_local_request_contract) ... ok
+test_missing_model (test_model.ModelTests.test_missing_model) ... ok
+test_offline_preserves_clear_error (test_model.ModelTests.test_offline_preserves_clear_error) ... ok
+test_remote_model_refused (test_model.ModelTests.test_remote_model_refused) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.274s
+
+OK
